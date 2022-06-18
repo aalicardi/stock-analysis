@@ -6,7 +6,7 @@ Steve, a recent finance graduate, is helping his parents with their investments.
 The purpose of this assignment is to refactor the macro that we previously built to include allow for expansions in the original dataset as need. 
 
 ## Original versus Refactored Script
-One of the major changes we are making to the code is using three output arrays instead of one. 
+One of the major changes we are making to the code to improve is is getting rid of a nested loop. Three output arrays are used instead. 
 
 ![image](https://user-images.githubusercontent.com/105028515/174450469-bbf484a0-b2a2-43e2-85ff-13b9683c47dc.png)
 
@@ -22,4 +22,4 @@ The efficiency of the code was determined by measuring how long it took to analy
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/105028515/174449908-a55abc04-393b-425c-8958-3bc7c0c8fdb7.png)
 
 ## Summary
-Refactoring code refers to editting code without changing it;s behavior. In many cases, refactoring code is advantageous as it "cleans up" the code, making it easier to read, understand, and maintain. This process usually makes the code more efficient as well. However, it can sometimes be a long process to refactor code, and if one is not being careful or does not fully understand the original code, they run the risk of breaking the code entirely. In the above example, refactoring our code for Steve resulted in not only a cleaner code, it also became more efficient as seen in the screenshots of the run time in the results section above. 
+Refactoring code refers to editting code to improve it in someway without changing it's behavior. In many cases, refactoring code is advantageous as it "cleans up" the code, making it easier to read, understand, and maintain. This process usually makes the code more efficient as well. However, it can sometimes be a long process to refactor code, and if one is not being careful or does not fully understand the original code, they run the risk of breaking the code and even entire macro entirely. In the above example, refactoring our code for Steve resulted in not only a cleaner code, but it also became more efficient as seen in the screenshots of the run time in the results section above. Comparatively, the original code took much less time to generate as opposed to the refactored code which in total took the time of the original code plus the time to refactor. 
