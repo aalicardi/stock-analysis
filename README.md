@@ -6,11 +6,12 @@ Steve, a recent finance graduate, is helping his parents with their investments.
 The purpose of this assignment is to refactor the macro that we previously built to include allow for expansions in the original dataset as need. 
 
 ## Original versus Refactored Script
+One of the major changes we are making to the code is using three output arrays instead of one. 
 
 ![image](https://user-images.githubusercontent.com/105028515/174450469-bbf484a0-b2a2-43e2-85ff-13b9683c47dc.png)
 
 ## Results
-The efficiency of the code was determined by measuring how long it took to analyze the data. Below are time screenshots from the original code and refactored code for the year 2017 and 2018. 
+The efficiency of the code was determined by measuring how long it took to analyze the data. Below are time screenshots from the original script and refactored script for the year 2017 and 2018. As you can see, the refactored script ran faster than the original script for both years.
 
 ### Original Script - Run Time
 ![2017RunTime_00](https://user-images.githubusercontent.com/105028515/174449916-49982ea4-26f1-45f0-8c5a-165ea25ac3eb.png)
@@ -20,4 +21,5 @@ The efficiency of the code was determined by measuring how long it took to analy
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/105028515/174449896-7b96af74-4e35-4e5b-ae12-c64f4f70bb10.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/105028515/174449908-a55abc04-393b-425c-8958-3bc7c0c8fdb7.png)
 
-
+## Summary
+Refactoring code refers to editting code without changing it;s behavior. In many cases, refactoring code is advantageous as it "cleans up" the code, making it easier to read, understand, and maintain. This process usually makes the code more efficient as well. However, it can sometimes be a long process to refactor code, and if one is not being careful or does not fully understand the original code, they run the risk of breaking the code entirely. In the above example, refactoring our code for Steve resulted in not only a cleaner code, it also became more efficient as seen in the screenshots of the run time in the results section above. 
