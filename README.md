@@ -3,10 +3,10 @@
 Steve, a recent finance graduate, is helping his parents with their investments. In particular, his parents have decided to invest in green energy but have done very little research. Using VBA, we helped Steve analyze stock data from Dago New Energy Corporation (DQ), along with data from a few other green energy stocks. The data analysis sheet that we completed for Steve worked well, but there were a few things that could be improved. 
 
 ### Purpose
-The purpose of this assignment is to refactor the macro that we previously built to improve it's performance. 
+The purpose of this assignment is to refactor the macro that was previously built to improve it's performance. 
 
 ## Original versus Refactored Script
-One of the major changes we are making to the code to improve is is getting rid of a nested loop. Three output arrays are used instead. 
+One of the major changes being made to the code to improve it is getting rid of a nested loop. Three output arrays are used instead. 
 
 ![image](https://user-images.githubusercontent.com/105028515/174450469-bbf484a0-b2a2-43e2-85ff-13b9683c47dc.png)
 
